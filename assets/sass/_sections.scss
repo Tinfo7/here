@@ -1,0 +1,42 @@
+.section{
+    div{
+        display: flex;
+        height: 40rem;
+        div{
+            flex: 3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            h1{
+                font-family:sans-serif, 'Gotham Rounded';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 48px;
+                color: #000000;
+                width: 52%;
+                margin: 0;
+            }
+            p{
+                font-family:sans-serif, 'Gotham Rounded';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #4F4F4F;
+                padding-right: 1rem;
+                margin: 0;
+                padding-top: 20px;
+                width: 50%;
+            }
+        }
+        .images{
+            flex: 3;
+        }
+    }
+    .revers{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}

@@ -1,0 +1,30 @@
+section{
+    background-color: hsl(136, 28%, 15%);
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly   ;
+    div{
+        width: 350px;
+        .titel{
+            display: flex;
+            h2{
+                margin-left: 18.5px;
+                font-family:sans-serif, 'Gotham Rounded';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 28px;
+                color: #FFFFFF;
+            }
+        }
+        p{
+            font-family:sans-serif, 'Gotham Rounded';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: #BDBDBD;
+        }
+    }
+}
