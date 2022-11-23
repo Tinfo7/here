@@ -1,13 +1,8 @@
 nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    height: 6rem;
     div{
         display: flex;
         align-items: center;
-        width: 25%;
+        width: 35%;
         img{
             margin-right: 10.49px;
             height: 37px;
@@ -22,36 +17,6 @@ nav{
             line-height: 29px;
             letter-spacing: -0.05em;
             cursor: pointer;
-        }
-        ul {
-        display: flex;
-            li {
-                padding-left: 59px;
-                font-family: sans-serif, 'Gotham Rounded';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 150%;
-                list-style: none;
-                a {
-                    text-decoration: none;
-                    color: #000000;
-                }
-            }
-        }
-        button {
-            margin-left: 44px;
-            background: #159F54;
-            border-radius: 10px;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            width: 7rem;
-            height: 2.5rem;
-            a {
-                text-decoration: none;
-                color: #FFFFFF;
-            }
         }
     }
 }

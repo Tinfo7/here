@@ -1,14 +1,9 @@
 .Titel{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 45rem;
     h1{
         margin: 0;
         text-align: center;
         color: #000000;
-        width: 45%;
+        max-width: 70%;
         font-family:sans-serif, 'Gotham Rounded';
         font-style: normal;
         font-weight: 700;
@@ -19,7 +14,7 @@
         margin: 0;
         padding-top: 20px;
         text-align: center;
-        width: 29%;
+        max-width: 45%;
         color: #4F4F4F;
         font-family:sans-serif, 'Gotham Rounded';
         font-style: normal;
@@ -50,24 +45,6 @@
                 line-height: 150%;
                 margin-left: 20px;
                 width: 83.5%;
-            }
-            button{
-                background: none;
-                border: none;
-                outline: none;
-                margin-left: 20px;
-                margin-top: 31px;
-                width: 9rem;
-                padding: 0;
-                a{
-                    text-decoration: none;
-                    color: #000000;
-                    font-family:sans-serif, 'Gotham Rounded';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 14px;
-                    line-height: 150%;
-                }
             }
         }
     }

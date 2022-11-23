@@ -1,0 +1,32 @@
+// layout
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 51.9rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 6rem;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+// sass
+.Titel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 35rem;
+}
+section{
+    background-color: hsl(136, 28%, 15%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
